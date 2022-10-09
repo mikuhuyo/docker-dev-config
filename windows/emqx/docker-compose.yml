@@ -1,0 +1,14 @@
+services:
+  emqx:
+    image: emqx/emqx:v4.1.0
+    container_name: emqx
+    privileged: true
+    ports:
+      - 18083:18083
+      - 8081:8081
+      - 8083:8083
+      - 8084:8084
+      - 1883:1883
+    # volumes:
+    #   - /root/docker/emqx/data/emq/emqx.conf:/opt/emqx/etc/emqx.conf
+    #   - /root/docker/emqx/data/emq/plugins:/opt/emqx/etc/plugins

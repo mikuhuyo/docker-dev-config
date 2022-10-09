@@ -19,3 +19,7 @@
 ## 工具集
 
 - RocketMQ
+- MySQL
+- Redis
+- MinIO
+- EMQX

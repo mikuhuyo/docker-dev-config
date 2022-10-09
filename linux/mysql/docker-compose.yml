@@ -1,0 +1,16 @@
+services:
+  mysql:
+    image: mysql:8.0.20
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    container_name: mysql
+    privileged: true
+    environment:
+      MYSQL_ROOT_PASSWORD: yueliminvc@outlook.com
+      TZ: Asia/Shanghai
+    ports:
+      - 3306:3306
+    volumes:
+      - /root/docker/mysql:/var/lib/mysql
+      - /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime
+    network_mode: "host"
