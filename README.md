@@ -28,3 +28,4 @@
   - ElasticSearch
   - Kibana
   - Logstash
+- influx2

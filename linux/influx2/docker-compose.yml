@@ -1,0 +1,13 @@
+services:
+  influxdb:
+    image: influxdb:2.4.0
+    container_name: influxdb2
+    privileged: true
+    volumes:
+      - /root/docker/influxdb/data:/var/lib/influxdb2
+      - /root/docker/influxdb/config/config.yml:/etc/influxdb2/config.yml
+    ports:
+      # web管理端口
+      - 8083:8083
+      # http api接口
+      - 8086:8086
