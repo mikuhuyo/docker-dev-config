@@ -29,3 +29,21 @@
   - Kibana
   - Logstash
 - influx2
+
+## 特别鸣谢
+
+### 关注者
+
+[![Stargazers repo roster for @mikuhuyo/docker-dev-config](https://reporoster.com/stars/mikuhuyo/docker-dev-config)](https://github.com/mikuhuyo/docker-dev-config/stargazers)
+
+### 收藏者
+
+[![Forkers repo roster for @mikuhuyo/docker-dev-config](https://reporoster.com/forks/mikuhuyo/docker-dev-config)](https://github.com/mikuhuyo/docker-dev-config/network/members)
+
+## 整理不易-请这个b喝杯水?
+
+![Alipay](./image/alipays.png)
+
+---
+
+![WeChatPay](./image/wechats.png)
